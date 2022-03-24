@@ -1,0 +1,21 @@
+body
+{
+    background-color: darkcyan;
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    width: 100vw;
+}
+
+#portraits
+{
+    text-align: center;
+    background-color: white;
+    border-style: solid;
+
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
