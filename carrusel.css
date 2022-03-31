@@ -1,0 +1,12 @@
+#myCarousel
+{
+    position: fixed;
+    z-index: -1;
+}
+
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */
+{
+    filter: invert(100%);
+}
+

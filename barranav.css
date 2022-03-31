@@ -1,0 +1,53 @@
+/*Formato a la barra principal*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  /*Alinear las opciones del menú una junto a otra*/
+  li {
+    float: left;
+  }
+  
+  /*Formato a las opciones de la barra*/
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /*Highlight al pasar el mouse sobre opciones*/
+  li a:hover:not(.active) {
+    background-color: #111;
+    color: white;
+  }
+  
+  /*Clase active para señalar la página actual del menú*/
+  .activo {
+    background-color: #aa8c04;
+  }
+  
+  /*Etiqueta ID para quitar formato href, no funciona dentro de otras declaraciones lmao*/
+  #nohref
+  {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /*Ocultar submenus en barra*/
+  .nav li ul {
+    display:none;
+    position:absolute;
+    min-width:140px;
+  }
+  
+  /*Mostrar submenus al pasar el mouse*/
+  .nav li:hover > ul {
+    display:block;
+  }
+  
